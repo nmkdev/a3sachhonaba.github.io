@@ -247,7 +247,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 /* From Uiverse.io by mrhyddenn */ 
-button {
+#confessionbtn {
     position: relative;
     padding: 10px 20px;
     border-radius: 7px;
@@ -265,7 +265,7 @@ button {
     transition: all 0.2s ease-in;
   }
   
-  button:hover {
+  #confessionbtn:hover {
     background: rgb(61, 106, 255);
     box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
     -webkit-transition: all 0.2s ease-out;
@@ -273,13 +273,13 @@ button {
     transition: all 0.2s ease-out;
   }
   
-  button:hover::before {
+  #confessionbtn:hover::before {
     -webkit-animation: sh02 0.5s 0s linear;
     -moz-animation: sh02 0.5s 0s linear;
     animation: sh02 0.5s 0s linear;
   }
   
-  button::before {
+  #confessionbtn::before {
     content: '';
     display: block;
     width: 0px;
@@ -313,10 +313,77 @@ button {
     }
   }
   
-  button:active {
+  #confessionbtn:active {
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: box-shadow 0.2s ease-in;
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
   }
   
+  /* From Uiverse.io by nikk7007 */ 
+.btn {
+  --color: #000000;
+  --color2: rgb(255, 255, 255);
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: .3px solid var(--color);
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 17px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+  color: var(--color);
+ }
+ 
+ .btn::after, .btn::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: var(--color);
+ }
+ 
+ .btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover {
+  color: var(--color2);
+ }
+ 
+ .btn:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+ }
+
+ .title{
+    margin: 20px;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+ }
+ .par{
+    margin: 30px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+ }
