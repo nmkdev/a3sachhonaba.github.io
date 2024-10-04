@@ -6,14 +6,7 @@ body, html {height: 100%}
   background-position: center;
   background-size: cover;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%; /* Optional: Adjust if necessary */
-}
+
 
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
