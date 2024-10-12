@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chuyển hướng</title>
+    <title>A3 Sạch Hơn Aba - CHuyển Hướng Trang</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,7 +14,7 @@
             margin: 0;
             background-color: #f0f0f0;
             opacity: 0;
-            transition: opacity 1s ease-in-out; /* Hiệu ứng khi vừa vào trang */
+            transition: opacity 0.2s ease-in-out;
         }
         .container {
             text-align: center;
@@ -24,7 +24,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transform: translateY(50px);
             opacity: 0;
-            transition: all 1s ease-in-out; /* Hiệu ứng chuyển động của container */
+            transition: all 0.2s ease-in-out;
         }
         h1 {
             color: #333;
@@ -35,7 +35,7 @@
             background-color: #e0e0e0;
             border-radius: 10px;
             overflow: hidden;
-            margin-bottom: 20px; /* Tạo khoảng cách giữa thanh và phần trăm */
+            margin-bottom: 20px;
             position: relative;
         }
         #progress {
@@ -43,10 +43,10 @@
             height: 30px;
             background-color: #4caf50;
             border-radius: 10px;
-            transition: width 0.1s ease-out; /* Hiệu ứng smooth cho thanh tiến trình */
+            transition: width 0.05s ease-out;
         }
         #progress-percent {
-            margin: 10px; /* Tạo khoảng cách giữa phần trăm và các thành phần khác */
+            margin: 10px;
             color: #333;
             font-weight: bold;
             font-size: 18px;
@@ -59,22 +59,22 @@
             font-size: 16px;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng smooth cho nút */
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
         button:hover {
             background-color: #45a049;
-            transform: scale(1.05); /* Phóng to nút khi hover */
+            transform: scale(1.05);
         }
         button:active {
             background-color: #3e8e41;
-            transform: scale(0.98); /* Thu nhỏ nút khi nhấn */
+            transform: scale(0.98);
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Chuyển hướng sau 10 giây...</h1>
+    <h1>Đang chuyển hướng ...</h1>
 
     <div id="progress-bar">
         <div id="progress"></div>
@@ -85,7 +85,7 @@
 </div>
 
 <script>
-    // Hàm tự động chuyển hướng sau 10 giây trong tab mới
+    // Hàm tự động chuyển hướng sau 5 giây trong tab mới
     function redirect() {
         window.open("https://www.a3sachhonaba.io.vn/", '_blank');
     }
@@ -96,20 +96,22 @@
     }
 
     // Cập nhật thanh tiến trình mỗi 100ms để tăng 1%
-    let timeLeft = 100; // 100 đơn vị tương ứng với 100 lần cập nhật (mỗi 1% trong 10 giây)
+    let timeLeft = 50; // 50 đơn vị tương ứng với 50 lần cập nhật (mỗi 1% trong 5 giây)
     let progressElement = document.getElementById("progress");
     let progressPercentElement = document.getElementById("progress-percent");
+
+    // Cập nhật mỗi 100ms để tăng thanh tiến trình
     let interval = setInterval(function() {
-        timeLeft--;
-        let progress = ((100 - timeLeft) / 100) * 100; // Tính phần trăm tiến trình
-        progressElement.style.width = progress + "%";
-        progressPercentElement.innerHTML = Math.round(progress) + "%";
+        timeLeft--;  // Giảm timeLeft
+        let progress = ((50 - timeLeft) / 50) * 100; // Tính phần trăm tiến trình
+        progressElement.style.width = progress + "%";  // Cập nhật thanh tiến trình
+        progressPercentElement.innerHTML = Math.round(progress) + "%";  // Cập nhật phần trăm
 
         if (timeLeft <= 0) {
-            clearInterval(interval);
+            clearInterval(interval); // Dừng cập nhật khi hết thời gian
             redirect(); // Chuyển hướng khi tiến trình hoàn tất
         }
-    }, 100); // Cập nhật mỗi 100ms để tăng 1%
+    }, 20); // Cập nhật mỗi 100ms để tăng 2%
 
     // Hiệu ứng mờ dần khi trang vừa tải
     window.onload = function() {
