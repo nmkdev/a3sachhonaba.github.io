@@ -22,10 +22,10 @@
             height: 100vh;
             margin: 0;
             background-color: #000;
-            color: #fff;
+            color: #ffffff;
             font-family: "Alegreya", serif;
             font-optical-sizing: auto;
-            animation: fadeIn 1.5s;
+            animation: fadeIn 1.45s;
             flex-direction: column;
             text-align: center;
         }
@@ -70,8 +70,12 @@
         }
 
         @keyframes progressAnimation {
-            from { width: 0; }
-            to { width: 100%; }
+            from { width: 0; 
+                background-color: #ffffff;    
+            }
+            to { width: 100%; 
+                background-color: #00ff00;
+            }
         }
     </style>
     <script>
@@ -91,11 +95,12 @@
         <picture>
             <source srcset="icon.webp" type="image/webp">
             <source srcset="icon.png" type="image/png">
-            <img src="icon.png" alt="Logo"> <!-- Added the img tag here -->
+            <img src="icon.png" alt="Logo">
         </picture>
         <h1>A3 Sạch Hơn Aba</h1>
         <div class="progress-bar">
-            <div class="progress"></div>
+            <div class="progress">
+            </div>
         </div>
     </div>
 </body>
