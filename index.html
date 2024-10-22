@@ -37,7 +37,7 @@
             align-items: center;
         }
 
-        img {
+        picture {
             width: 20vh;
             height: auto;
         }
@@ -82,7 +82,10 @@
 </head>
 <body>
     <div class="content">
-        <img src="icon.png" alt="Logo">
+        <picture>
+            <source srcset="icon.webp" type="image/webp">
+            <source srcset="icon.png" type="image/png">
+        </picture>        
         <h1>A3 Sạch Hơn Aba</h1>
         <div class="progress-bar">
             <div class="progress"></div>
