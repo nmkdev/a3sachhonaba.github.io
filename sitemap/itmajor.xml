@@ -1,124 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/install</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/examplecode</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/Video</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/tinhoctre</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/tuyensinh10</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/examplecode/cplusplus</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/t%C3%A0i-li%E1%BB%87u-gi%C3%A1o-khoa-chuy%C3%AAn-tin</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/sgk_tinhoc_11_cplusplus</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/Video/lbd_hsg_2023-2024</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/huyenmyxuyen</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/tinhsoctrang</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/tinhoctre/tinhoctre-thcs-tinhsoctrang-2024_2025</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/t%C3%A0i-li%E1%BB%87u-gi%C3%A1o-khoa-chuy%C3%AAn-tin/tl_1</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/t%C3%A0i-li%E1%BB%87u-gi%C3%A1o-khoa-chuy%C3%AAn-tin/tl_1_bt</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/t%C3%A0i-li%E1%BB%87u-gi%C3%A1o-khoa-chuy%C3%AAn-tin/tl_2</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/t%C3%A0i-li%E1%BB%87u-gi%C3%A1o-khoa-chuy%C3%AAn-tin/tl_2_bt</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/t%C3%A0i-li%E1%BB%87u-gi%C3%A1o-khoa-chuy%C3%AAn-tin/tl_3</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/document/t%C3%A0i-li%E1%BB%87u-gi%C3%A1o-khoa-chuy%C3%AAn-tin/tl_3_bt</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/huyenmyxuyen/2023</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/tinhsoctrang/2023</loc>
-  <lastmod>2024-10-27T07:18:31+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/install</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/examplecode</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/Video</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/tinhoctre</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/tuyensinh10</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/examplecode/cplusplus</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/tài-liệu-giáo-khoa-chuyên-tin</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/sgk_tinhoc_11_cplusplus</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/Video/lbd_hsg_2023-2024</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/huyenmyxuyen</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/tinhsoctrang</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/tinhoctre/tinhoctre-thcs-tinhsoctrang-2024_2025</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/tài-liệu-giáo-khoa-chuyên-tin/tl_1</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/tài-liệu-giáo-khoa-chuyên-tin/tl_1_bt</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/tài-liệu-giáo-khoa-chuyên-tin/tl_2</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/tài-liệu-giáo-khoa-chuyên-tin/tl_2_bt</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/tài-liệu-giáo-khoa-chuyên-tin/tl_3</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/document/tài-liệu-giáo-khoa-chuyên-tin/tl_3_bt</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/huyenmyxuyen/2023</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.41</priority>
+    </url>
+    <url>
+        <loc>https://www.a3sachhonaba.io.vn/itmajor/contest/hsglop9/tinhsoctrang/2023</loc>
+        <lastmod>2024-10-27T07:18:31+00:00</lastmod>
+        <priority>0.41</priority>
+    </url>
 </urlset>
