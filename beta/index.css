@@ -2,3 +2,7 @@ html{
 }
 h1{
 }
+.image-background{
+    width: 100%;
+    background-repeat: no-repeat;
+}
